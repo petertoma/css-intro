@@ -1,0 +1,23 @@
+/* Not recommended
+* {
+    font-weight: bold;
+} */
+h1 {
+    color:red;
+    }
+body {
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+    height: 2000px}
+p {
+    color: brown;
+    }
+#selected {border: 1px solid blue; position: sticky;
+top: 0;
+right: 0;}
+.underline {text-decoration: underline;}
+p:hover {
+    color: aquamarine;
+}
+p::first-letter {font-size: 2rem;}
